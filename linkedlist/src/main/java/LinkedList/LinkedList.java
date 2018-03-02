@@ -24,6 +24,7 @@ public class LinkedList<DataType>
 
     public LinkedNode<DataType>  getElementWithValue(DataType valueToSearch)
     {
+
         for (LinkedNode<DataType> it = this.front_element; it != null; it = it.next)
         {
 /*            if ( it.data.equals(valueToSearch))
